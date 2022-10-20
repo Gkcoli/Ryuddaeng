@@ -1,0 +1,19 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        // 3x3
+        String[][] seatingArrangement = {  { "Lia", "Ryujin", "Yeji" },
+                                           { "Jennie", "Liz", "Wendy" },
+                                           { "Yujin", "Jeongyeon", "Sejoung" } };
+
+        // outer loop
+        for (int row = 2; row >=0; row--) {
+
+            System.out.println(" ");
+            System.out.print("row " + row + ": ");
+            // inner loop
+            for (int column = 2; column >=0; column--)
+                System.out.print(seatingArrangement[row][column] + " ");
+            }
+        }
+    }
