@@ -1,7 +1,10 @@
-public class exercise {
+public class exercises {
     public static void main(String[] args) throws Exception {
   
-        char [][] mdArray = {{'S','L','A','M'}, {'T','I','L', 'E'}, {'E','A','T', 'S'}, {'P', 'R', 'O', 'S'}};
+        char [][] mdArray = {{'S','L','A','M'},  
+                            {'T','I','L', 'E'}, 
+                            {'E','A','T', 'S'}, 
+                            {'P', 'R', 'O','S'}};
     
   
         // WORD 1
@@ -184,6 +187,113 @@ public class exercise {
                 }
             }
         } 
-}
-}
+      
+        // WORD 16
+        System.out.println("");
+        System.out.println("16. WORD 16");
+        for (int row =0; row <=3; row++){
+            System.out.print("");
+            for(int column =0; column <=3; column++){
+                if(row == 2 && column == 3 || row == 1 && column ==1 || row == 0 && column == 0){
+                    System.out.print(mdArray[row][column]);
+                }
+            }
+        }
 
+        // WORD 17
+        System.out.println("");
+        System.out.println("17. WORD 17");
+        for (int row =0; row <=3; row++){
+            System.out.print("");
+            for(int column =0; column <=3; column++){
+                if(row == 1 && column ==2 || row == 1 && column == 1 || row == 1 && column == 0){
+                    System.out.print(mdArray[row][column]);
+                }
+            }
+        }
+
+        // WORD 18
+        System.out.println("");
+        System.out.println("18. WORD 18");
+        for (int row =3; row >=0; row--){
+            System.out.print("");
+            for(int column =3; column >=0; column--){
+                if(row == 1 && column ==2 || row == 1 && column == 1 || row == 1 && column == 0){
+                    System.out.print(mdArray[row][column]);
+                }
+            }
+        }
+
+        // WORD 19
+        System.out.println("");
+        System.out.println("19. WORD 19");
+        for (int row =0; row <=3; row++){
+            System.out.print("");
+            for(int column =0; column <=3; column++){
+                if(row == 1 && column == 1 || row == 1 && column == 2 || row == 1 && column == 3){
+                    System.out.print(mdArray[row][column]);
+                }
+            }
+        }
+
+          // WORD 20
+          System.out.println("");
+          System.out.println("20. WORD 20");
+          for (int row =0; row <=3; row++){
+              System.out.print("");
+              for(int column =0; column <=3; column++){
+                  if(row == 0 && column == 1 || row == 0 && column == 2 || row == 0 && column == 3 || row == 1 && column == 3){
+                      System.out.print(mdArray[row][column]);
+                  }
+              }
+          }
+
+          // WORD 21
+          System.out.println("");
+          System.out.println("21. WORD 21");
+          for (int row =0; row <=3; row++){
+              System.out.print("");
+              for(int column =0; column <=3; column++){
+                  if(row == 0 && column == 0  || row == 1  && column == 1  || row == 2 && column == 2 ){
+                      System.out.print(mdArray[row][column]);
+                  }
+              }
+          }
+
+              // WORD 22
+              System.out.println("");
+              System.out.println("22. WORD 22");
+              for (int row =0; row <=3; row++){
+                  System.out.print("");
+                  for(int column =0; column <=3; column++){
+                      if(row == 1 && column == 0  || row == 2 && column == 0  || row == 2 && column == 1 ){
+                          System.out.print(mdArray[row][column]);
+                      }
+                  }
+             }
+
+                 // WORD 23
+          System.out.println("");
+          System.out.println("23. WORD 23");
+          for (int row =0; row <=3; row++){
+              System.out.print("");
+              for(int column =0; column <=3; column++){
+                  if(row == 0 && column == 1  || row == 1 && column == 3  || row == 2 && column == 3 || row == 3 && column == 3 ){
+                      System.out.print(mdArray[row][column]);
+                  }
+              }
+         }
+
+             // WORD 24
+            System.out.println("");
+            System.out.println("24. WORD 24");
+            for (int row =0; row <=3; row++){
+                 System.out.print("");
+                for(int column =0; column <=3; column++){
+                    if(row == 0 && column == 1  || row == 0 && column == 2  || row == 1 && column == 0 || row == 2 && column == 0 ){
+                        System.out.print(mdArray[row][column]);
+                }
+           }
+        }
+    }
+}
